@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
       tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
       tabLayout.setSelectedTabIndicatorColor(Color.parseColor("#ffffff"));
-      tabLayout.setTabTextColors(Color.parseColor("#727272"), Color.parseColor("#ffffff"));
+      tabLayout.setTabTextColors(Color.parseColor("#c7c5c5"), Color.parseColor("#ffffff"));
 
       Pager adapter = new Pager(getSupportFragmentManager(), tabLayout.getTabCount());
 
